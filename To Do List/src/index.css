@@ -1,0 +1,109 @@
+body{
+  color: white;
+  background-color: black;
+}
+/*.card{
+  border: 2px solid rgb(168, 167, 167);
+  border-radius: 10px;
+  padding: 2%;
+  margin: 2%;
+  text-align: center;
+  max-width: 30%;
+  display:inline-block;
+  justify-content: space-evenly;
+}
+.card-img{
+  max-width: 80%;
+  border: 2px solid green;
+  box-shadow: 4px 4px;
+  border-radius: 50%;
+}
+.card-title{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 180%;
+  margin: 0;
+}
+.counterContainer{
+  width: 50%;
+  justify-content: space-evenly;
+}
+.counterButton{
+  width: 25%;
+  justify-content: space-evenly;
+  border: none;
+  color: black;
+  font-weight: bold;
+  font-size: 3em;
+  margin: 5px 5px;
+  border-radius: 10px;
+  background-color: greenyellow;
+}
+.counterDisplay{
+  width: 100%;
+  background-color: aquamarine;
+  font-size: 25em;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+}
+.colorPickerContainer{
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-size: 3rem;
+}
+.colorDisplay{
+  font-size: 2rem;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  border: 5px solid whitesmoke;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: 0.2s ease;
+}
+label{
+  font-weight: bold;
+  font-size: 2rem;
+}
+input[type="color"]{
+  width: 75px;
+  height: 75px;
+  border: 5px solid whitesmoke;
+  border-radius: 10px;
+} */
+.ToDoListContainer{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  font-size: 1.5rem;
+}
+input{
+  height: 30px;
+  font-size: 1.5rem;
+  margin: 15px;
+  padding: 5px;
+}
+button{
+  height: 30px;
+  background-color: greenyellow;
+}
+.listElement{
+  border: 2px solid greenyellow;
+  margin: 5px;
+  padding: 5px;
+}
